@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/list_item"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="@id/list_item"
+        app:layout_constraintLeft_toLeftOf="@id/list_item">
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="top"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="35sp"
+        android:layout_marginLeft="35sp" />
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="10sp"
+        android:gravity="bottom"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="35sp"
+        android:layout_marginLeft="35sp"
+        android:text="9 octobre"
+        android:color="@color/red"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

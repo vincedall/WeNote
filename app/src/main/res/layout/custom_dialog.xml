@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/import_menu">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:text=""
+        app:layout_constraintTop_toTopOf="@id/import_menu"
+        app:layout_constraintBottom_toTopOf="@id/import_list"
+        android:id="@+id/directory"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/import_list"
+        app:layout_constraintTop_toBottomOf="@id/directory"
+        app:layout_constraintBottom_toBottomOf="@id/import_menu"/>
+</android.support.constraint.ConstraintLayout>

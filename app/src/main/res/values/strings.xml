@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeNote</string>
+    <string name="autosave_on">Autosave: On</string>
+    <string name="autosave_off">Autosave: Off</string>
+    <string name="delete">Delete</string>
+    <string name="export">Export</string>
+    <string name="cancel">Cancel</string>
+    <string name="note">Take note</string>
+    <string name="loseyournote">Are you sure?\nThe note is not saved</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="delete_note">Are you sure?\nIt cannot be undone</string>
+    <string name="export_note">The notes will be exported\nto external storage</string>
+    <string name="impor">Import</string>
+    <string name="saved">\n\nSaved</string>
+    <string name="saving">\n\nSaving...</string>
+    <string name="action_bar">Take note\n</string>
+</resources>
