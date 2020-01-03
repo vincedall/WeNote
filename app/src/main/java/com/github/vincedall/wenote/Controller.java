@@ -58,7 +58,8 @@ public class Controller {
      */
     public void activateImportMode(Context context, ListView listView){
         if (new File(Environment.getExternalStorageDirectory() + "/Notes/").exists() &
-                new File(Environment.getExternalStorageDirectory() + "/Notes/").list() != null) {
+                new File(Environment.getExternalStorageDirectory() + "/Notes/").list() != null &
+                new File(Environment.getExternalStorageDirectory() + "/Notes/").list().length != 0) {
             data.setImportMode(true);
             data.setImportModeFiles(new ArrayList<String>());
             data.setImportModeAdapter(new ArrayAdapter<String>(context,
